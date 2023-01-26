@@ -2,13 +2,13 @@
 " которая бежит от одно друга к другому и возвращается двигаясь быстрее чем кто либо из друзей. Вопрос сколько раз собака добежит"+
 " до каждого друга?\nДля решения задачи введите следующие параметры:");
 int friends = 2;
-Console.WriteLine("Скорость первого друга (км/ч): ");
+Console.WriteLine("Скорость первого друга (м/с): ");
 double firstFriendSpeed = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Скорость второго друга (км/ч): ");
+Console.WriteLine("Скорость второго друга (м/с): ");
 double secondFriendSpeed = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Начальное расстояние между друзьями(м): ");
 double distance = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Скорость собаки (км/ч): ");
+Console.WriteLine("Скорость собаки (м/с): ");
 double dogSpeed = Convert.ToDouble(Console.ReadLine());
 int count = 0;
 double time = 0;
